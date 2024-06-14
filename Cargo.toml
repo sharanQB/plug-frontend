@@ -1,0 +1,4 @@
+[workspace]
+members = [
+    "src/plug_int_backend",
+]

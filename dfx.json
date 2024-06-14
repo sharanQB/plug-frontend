@@ -1,0 +1,22 @@
+{
+  "canisters": {
+    "plug_int_frontend": {
+      "frontend": {
+        "entrypoint": "src/plug_int_frontend/src/index.html"
+      },
+      "source": [
+        "src/plug_int_frontend/assets",
+        "dist/plug_int_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
